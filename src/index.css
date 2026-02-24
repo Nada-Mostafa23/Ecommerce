@@ -11,3 +11,235 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap');
+:root
+{
+    --main-color:#14c714;
+    --light-color:#f0f3f2;
+    --shadow: rgba(82, 160, 105, 0.527) 0px 2px 4px -1px,rgba(103, 209, 112, 0.514) 0px 4px 5px 0px,rgba(95, 192, 116, 0.521) 0px 1px 10px 0px;
+    --font-family:'Encode Sans Expanded', sans-serif;
+    --rating-color:#ffc908;
+}
+
+body{
+    font-family: var(--font-family) !important;
+}
+
+.network{
+    background-color: #fff;
+    position: fixed;
+    top: 70px;
+    left: 5px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: var(--shadow);
+    font-size: 18px;
+    z-index: 9999999999;
+}
+.navbar{
+  z-index: 405045449849;
+}
+.rating-color
+{
+    color: var(--rating-color);
+}
+.cursor-pointer
+{
+    cursor: pointer;
+}
+a , a:hover{
+    color: black !important;
+    text-decoration: none !important;
+}
+.category-box {
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 600;
+  transition: box-shadow 0.4s , border 0.4s;
+}
+.categoryImg{
+  object-fit: cover;
+  width: 100%;
+  height: 300px; 
+  transition: all 0.5s; 
+}
+.brand-box {
+  border: 1px solid #ddd;
+  padding: 16px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.heart{
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  cursor: pointer;
+  font-size: 30px;
+}
+.brand-img {
+  height: 200px;
+  object-fit: contain;
+}
+
+.product{
+    transition: box-shadow 0.5s , border 0.5s;
+    border: solid 1px transparent;
+    overflow: hidden;
+    cursor: pointer;
+}
+.product:hover ,.category-box:hover , .brand-box:hover
+{
+    box-shadow: var(--shadow) !important;
+
+}
+.product .btn 
+{
+    transition: transform 1s , opacity 1s;
+    transform: translateY(100%);
+    opacity: 0;
+}
+.product:hover .btn 
+{
+    opacity: 1;
+    transform: translateY(0%);
+
+}
+.font-sm
+{
+    font-size: 14px;
+}
+.text-main
+{
+    color: var(--main-color);
+}
+.bg-main
+{
+    background-color: var(--main-color) !important;
+}
+.bg-main-light 
+{
+    background-color: var(--light-color) !important;
+}
+.hover{
+    transition: all 0.4s !important;
+}
+.hover:hover{
+    color: var(--main-color) !important;
+}
+.heart-badge{
+  position: absolute !important;
+  top: 15px !important;
+  left:  10px !important;
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 50% !important;
+  text-align: center !important;
+}
+.badge{
+  position: absolute !important;
+  top: 12px !important;
+  left:  25px !important;
+}
+.cartPage{
+  padding:4% !important;
+  margin: 15% 0 !important;
+  width: 80% !important;
+ 
+}
+.btnCounter{
+  width:30px;
+  height:30px;
+  border-radius:5px;
+  color:#000;
+  border:1px solid var(--main-color);
+  font-size:20px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.loading{
+    z-index: 405045449849;
+}
+
+
+.loader {
+        transform: rotateZ(45deg);
+        perspective: 1000px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        color: #fff;
+      }
+        .loader:before,
+        .loader:after {
+          content: '';
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: inherit;
+          height: inherit;
+          border-radius: 50%;
+          transform: rotateX(70deg);
+          animation: 1s spin linear infinite;
+        }
+        .loader:after {
+          color: #0aad0a;
+          transform: rotateY(70deg);
+          animation-delay: .4s;
+        }
+
+      @keyframes rotate {
+        0% {
+          transform: translate(-50%, -50%) rotateZ(0deg);
+        }
+        100% {
+          transform: translate(-50%, -50%) rotateZ(360deg);
+        }
+      }
+
+      @keyframes rotateccw {
+        0% {
+          transform: translate(-50%, -50%) rotate(0deg);
+        }
+        100% {
+          transform: translate(-50%, -50%) rotate(-360deg);
+        }
+      }
+
+      @keyframes spin {
+        0%,
+        100% {
+          box-shadow: .2em 0px 0 0px currentcolor;
+        }
+        12% {
+          box-shadow: .2em .2em 0 0 currentcolor;
+        }
+        25% {
+          box-shadow: 0 .2em 0 0px currentcolor;
+        }
+        37% {
+          box-shadow: -.2em .2em 0 0 currentcolor;
+        }
+        50% {
+          box-shadow: -.2em 0 0 0 currentcolor;
+        }
+        62% {
+          box-shadow: -.2em -.2em 0 0 currentcolor;
+        }
+        75% {
+          box-shadow: 0px -.2em 0 0 currentcolor;
+        }
+        87% {
+          box-shadow: .2em -.2em 0 0 currentcolor;
+        }
+      }
+   
