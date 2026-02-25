@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Ecommerce/static/css/main.b9ee0ee9.css",
+    "main.js": "/Ecommerce/static/js/main.d3d4ddf8.js",
+    "static/media/fa-solid-900.svg": "/Ecommerce/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
+    "static/media/fa-brands-400.svg": "/Ecommerce/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
+    "static/media/fa-solid-900.eot": "/Ecommerce/static/media/fa-solid-900.9bbb245e67a133f6e486.eot",
+    "static/media/fa-solid-900.ttf": "/Ecommerce/static/media/fa-solid-900.be9ee23c0c6390141475.ttf",
+    "static/media/fa-regular-400.svg": "/Ecommerce/static/media/fa-regular-400.4689f52cc96215721344.svg",
+    "static/media/fa-brands-400.eot": "/Ecommerce/static/media/fa-brands-400.23f19bb08961f37aaf69.eot",
+    "static/media/fa-brands-400.ttf": "/Ecommerce/static/media/fa-brands-400.527940b104eb2ea366c8.ttf",
+    "static/media/fa-solid-900.woff": "/Ecommerce/static/media/fa-solid-900.eeccf4f66002c6f2ba24.woff",
+    "static/media/fa-brands-400.woff": "/Ecommerce/static/media/fa-brands-400.2285773e6b4b172f07d9.woff",
+    "static/media/fa-solid-900.woff2": "/Ecommerce/static/media/fa-solid-900.1551f4f60c37af51121f.woff2",
+    "static/media/fa-brands-400.woff2": "/Ecommerce/static/media/fa-brands-400.d878b0a6a1144760244f.woff2",
+    "static/media/Capture.jpeg": "/Ecommerce/static/media/Capture.4cc80145d3bd6d5aea1a.jpeg",
+    "static/media/fa-regular-400.eot": "/Ecommerce/static/media/fa-regular-400.77206a6bb316fa0aded5.eot",
+    "static/media/fa-regular-400.ttf": "/Ecommerce/static/media/fa-regular-400.491974d108fe4002b2aa.ttf",
+    "static/media/fa-regular-400.woff": "/Ecommerce/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff",
+    "static/media/XCM_Manual_1533480_5305769_379x304_1X._SY304_CB616236518_.jpg": "/Ecommerce/static/media/XCM_Manual_1533480_5305769_379x304_1X._SY304_CB616236518_.96a08320f0007d30af67.jpg",
+    "static/media/fa-regular-400.woff2": "/Ecommerce/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
+    "static/media/XCM_Manual_1396328_4379574_Egypt_EG_BAU_GW_DC_SL_Jewelry_379x304_1X._SY304_CB650636675_.jpg": "/Ecommerce/static/media/XCM_Manual_1396328_4379574_Egypt_EG_BAU_GW_DC_SL_Jewelry_379x304_1X._SY304_CB650636675_.d97d01f6b579324b1cd6.jpg",
+    "static/media/XCM_Manual_1396328_4379575_Egypt_EG_BAU_GW_DC_SL_Bags_Wallets_379x304_1X._SY304_CB650636675_.jpg": "/Ecommerce/static/media/XCM_Manual_1396328_4379575_Egypt_EG_BAU_GW_DC_SL_Bags_Wallets_379x304_1X._SY304_CB650636675_.941f444ea4800c7f2e40.jpg",
+    "static/media/freshcart-logo.svg": "/Ecommerce/static/media/freshcart-logo.53f7a424c3aedc30a0fb46dc2278137c.svg",
+    "static/media/slick.svg": "/Ecommerce/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Ecommerce/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Ecommerce/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Ecommerce/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Ecommerce/index.html",
+    "main.b9ee0ee9.css.map": "/Ecommerce/static/css/main.b9ee0ee9.css.map",
+    "main.d3d4ddf8.js.map": "/Ecommerce/static/js/main.d3d4ddf8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9ee0ee9.css",
+    "static/js/main.d3d4ddf8.js"
+  ]
+}
